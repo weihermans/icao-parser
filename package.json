@@ -1,13 +1,27 @@
 {
-  "name": "@flyvolo/icao-parser",
+  "name": "volo-icao-parser",
   "version": "1.0.0",
   "description": "Validate ICAO/IATA airport codes and infer region from ICAO prefix. Zero dependencies. By VOLO.",
   "main": "index.js",
   "type": "commonjs",
-  "scripts": { "test": "node test.js" },
-  "keywords": ["icao","iata","airport","airport-code","aviation","parser","validate","volo"],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "icao",
+    "iata",
+    "airport",
+    "airport-code",
+    "aviation",
+    "parser",
+    "validate",
+    "volo"
+  ],
   "homepage": "https://www.flyvolo.ai",
-  "repository": { "type": "git", "url": "https://github.com/weihermans/icao-parser.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weihermans/icao-parser.git"
+  },
   "author": "VOLO Technologies Pte. Ltd. (https://www.flyvolo.ai)",
   "license": "MIT"
 }

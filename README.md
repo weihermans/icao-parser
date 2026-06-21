@@ -1,4 +1,4 @@
-# @flyvolo/icao-parser
+# volo-icao-parser
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 
@@ -6,8 +6,14 @@ Validate **ICAO** / **IATA** airport codes and infer the region from an ICAO pre
 
 Part of [**VOLO**](https://www.flyvolo.ai)'s open aviation toolkit.
 
+## Install
+
+```bash
+npm install volo-icao-parser
+```
+
 ```js
-const { isValidICAO, isValidIATA, regionFromICAO, parse } = require("@flyvolo/icao-parser");
+const { isValidICAO, isValidIATA, regionFromICAO, parse } = require("volo-icao-parser");
 
 isValidICAO("KJFK");      // → true
 isValidIATA("JFK");       // → true
